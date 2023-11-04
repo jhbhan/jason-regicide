@@ -1,0 +1,16 @@
+.card {
+    background-color: blue;
+    color:white;
+    width: 100px;
+    height:150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.disabled {
+    background-color: darkblue;
+}

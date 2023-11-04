@@ -1,0 +1,92 @@
+.regicide{
+  text-align: center;
+}
+
+.menu-container {
+  margin: 60px auto;
+  width: 150px;
+}
+
+.game {
+  width: 100%;
+  height: 100%;
+}
+
+.game_header{
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-color: cyan;
+  padding: 12px;
+}
+
+.middle_section{
+  background-color: yellow;
+  width: 100%;
+}
+
+.boss_section{
+  background-color: rgba(255, 200, 0, 0.682);
+  padding: 25px;
+
+  .boss_deck_area{
+    padding-right: 40%;
+    padding-left: 40%;
+    display: flex;
+  }
+  .health-counter{
+    margin:auto;
+  }
+}
+
+.play_section{
+  height: 250px;
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+
+  .play_button{
+    margin: 12px auto;
+  }
+  .cards_played {
+    display:flex;
+    justify-content: center;
+    .card {
+      margin: 12px;
+    }
+  }
+}
+
+.draw_section{
+  padding: 25px;
+
+  .play_area{
+    display: flex;
+    justify-content: center;
+    .card {
+      margin-right: 16px;
+    }
+  }
+}
+
+.player_zone {
+  height: 300px;
+  display: flex;
+  
+  .your_hand{
+    width:100%;
+    background-color: rgba(255, 200, 0, 0.682);
+    .player_label{
+      margin: 12px auto;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .cards_in_hand {
+      display: flex;
+      height: 100%;
+      .card {
+        margin: 24px auto;
+      }
+    }
+  }
+}
